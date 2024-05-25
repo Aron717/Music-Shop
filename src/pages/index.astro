@@ -1,8 +1,10 @@
 ---
 const pageTitle = "Music Social";
 import Layout from "../layouts/Base.astro";
+import { Image } from "astro:assets";
+import Photo from "../images/index-img2.jpg";
 ---
 
 <Layout>
-  <img src="../../public/index-img1.jpg" alt="" />
+  <Image src={Photo} alt="" />
 </Layout>
