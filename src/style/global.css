@@ -12,6 +12,11 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+@media screen and (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+    }
+}
 .footer a{
     color: white;
     text-decoration: none;
@@ -27,6 +32,14 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
+}
+@media screen and (max-width: 900px) {
+    .nav-links {
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 200px;
+
+    }
 }
 
 .nav-links a {
